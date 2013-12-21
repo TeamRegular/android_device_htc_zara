@@ -19,6 +19,14 @@ PRODUCT_COPY_FILES += \
 
 $(call inherit-product, build/target/product/full.mk)
 
+PRODUCT_COPY_FILES += \
+    device/htc/zara/recovery/choice_fn:recovery/root/sbin/choice_fn \
+    device/htc/zara/recovery/detect_key:recovery/root/sbin/detect_key \
+    device/htc/zara/recovery/init.recovery.qcom.rc:root/init.recovery.qcom.rc \
+    device/htc/zara/recovery/offmode_charging:recovery/root/sbin/offmode_charging \
+    device/htc/zara/recovery/power_test:recovery/root/sbin/power_test \
+    device/htc/zara/rootdir/fstab.zara:recovery/root/fstab.zara
+
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
 PRODUCT_NAME := full_zara
 PRODUCT_DEVICE := zara
