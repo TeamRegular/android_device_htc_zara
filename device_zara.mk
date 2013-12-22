@@ -25,6 +25,7 @@ PRODUCT_COPY_FILES += \
     device/htc/zara/recovery/init.recovery.qcom.rc:root/init.recovery.qcom.rc \
     device/htc/zara/recovery/offmode_charging:recovery/root/sbin/offmode_charging \
     device/htc/zara/recovery/power_test:recovery/root/sbin/power_test \
+    device/htc/zara/twrp.fstab:recovery/root/etc/twrp.fstab \
     device/htc/zara/rootdir/fstab.zara:recovery/root/fstab.zara
 
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
