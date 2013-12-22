@@ -23,7 +23,7 @@ TARGET_USE_CUSTOM_LUN_FILE_PATH := /sys/devices/platform/msm_hsusb/gadget/lun%d/
 BOARD_RECOVERY_SWIPE := true
 TARGET_RECOVERY_PIXEL_FORMAT := RGBX_8888
 BOARD_HAS_NO_SELECT_BUTTON := true
-TARGET_RECOVERY_FSTAB := device/htc/zara/recovery.fstab
+TARGET_RECOVERY_FSTAB := device/htc/zara/rootdir/fstab.zara
 
 # Filesystem
 TARGET_USERIMAGES_USE_EXT4 := true
